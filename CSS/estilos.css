@@ -35,6 +35,13 @@ img{
     margin-right: 20px;
     font-family: fuente1;
     font-size: 20px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.opciones:hover{
+  color: white;
+  background-color: #FF8997;
 }
 
 h1{
