@@ -9,9 +9,7 @@ body{
     background-image: url(../media/fondo.jpg);
 }
 
-li{
-    display: inline;
-}
+
 
 header{
     background-color: #C0A0C3;
@@ -23,7 +21,7 @@ a{
     color: black;
 }
 
-img{
+.logo{
     width: 60px;
     height: 60px;
     padding-left: 10px;
@@ -32,11 +30,12 @@ img{
 }
 
 .opciones{
-    margin-right: 20px;
+    
     font-family: fuente1;
     font-size: 20px;
     padding: 6px;
     border-radius: 4px;
+    text-align: center;
 }
 
 .opciones:hover{
@@ -48,3 +47,51 @@ h1{
     font-family: fuente1;
     font-size: 40px;
 }
+
+.div1{
+    margin: 2%;
+    background-color: #90CAF9;
+    border: dotted #5D4A3B;
+    border-width: 10px 4px;
+    border-radius: 10px 40px;
+    padding: 20px;
+
+}
+
+
+.cuerpo{
+    text-align: center;
+    font-family: fuente3;
+    font-size: 40px;
+    -webkit-text-fill-color: #FBCDBD;
+    -webkit-text-stroke: 1px #464946;
+    
+}
+
+.info{
+    font-family: fuente2;
+    padding: 10px;
+    
+}
+
+.gatos{
+    width: 150px;
+    height: 150px;
+}
+
+footer{
+    background-color: #C0A0C3;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: fuente2;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.insta{
+    width: 20px;
+    height: 20px;
+}
+

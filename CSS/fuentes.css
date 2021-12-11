@@ -2,3 +2,13 @@
     font-family: fuente1;
     src: url(../Fuentes/Little\ Comet\ Demo\ Version.otf);
 }
+
+@font-face {
+    font-family: fuente2;
+    src: url(../Fuentes/Delight\ Candles\ .ttf);
+}
+
+@font-face{
+    font-family: fuente3;
+    src: url(../Fuentes/aAlloyInk.otf);
+}
