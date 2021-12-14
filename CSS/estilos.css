@@ -5,15 +5,11 @@
     padding: 0;
 }
 
-
-    
-
-
-
 header{
     background-color: #C0A0C3;
     width: 100%;
-
+    top: 0;
+    position: sticky;
 }
 
 a{
@@ -30,7 +26,6 @@ a{
 }
 
 .opciones{
-    
     font-family: fuente1;
     font-size: 20px;
     padding: 6px;
@@ -39,6 +34,16 @@ a{
 }
 
 .opciones:hover{
+  color: white;
+  background-color: #FF8997;
+}
+
+.opcionElegida{
+  font-family: fuente1;
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 4px;
+  text-align: center;
   color: white;
   background-color: #FF8997;
 }
@@ -55,9 +60,7 @@ h1{
     border-width: 10px 4px;
     border-radius: 10px 40px;
     padding: 20px;
-
 }
-
 
 .cuerpo{
     text-align: center;
@@ -65,13 +68,11 @@ h1{
     font-size: 40px;
     -webkit-text-fill-color: #FBCDBD;
     -webkit-text-stroke: 1px #464946;
-    
 }
 
 .info{
     font-family: fuente2;
     padding: 10px;
-    
 }
 
 .gatos{
@@ -82,7 +83,7 @@ h1{
 footer{
     background-color: #C0A0C3;
     bottom: 0;
-    position: absolute;
+    position: relative;
     text-align: center;
     width: 100%;
     font-family: fuente2;
@@ -95,3 +96,46 @@ footer{
     height: 20px;
 }
 
+.CuidadosEnfermedades{
+  width: 80%;
+  height: 80%;
+  border: dashed #5D4A3B;
+  border-width: 3px;
+  border-radius: 7px 35px;
+  align-self: center;
+}
+
+.ECTitulos{
+  font-family: fuente2;
+}
+
+.div2{
+  background-color: #FFCDBD;
+  border: dashed #5D4A3B;
+  border-width: 5px;
+  border-radius: 10px 40px;
+  padding: 20px;
+}
+
+.div3{
+  background-color: #C09988;
+  border: dashed #5D4A3B;
+  border-width: 5px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.div4{
+  background-color: #77DD77;
+  border: dashed #5D4A3B;
+  border-width: 5px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.div5{
+  background-color: #FEFAA8;
+  border: dashed #5D4A3B;
+  border-width: 5px;
+  border-radius: 10px 40px;
+  padding: 20px;
+}
