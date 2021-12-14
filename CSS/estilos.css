@@ -83,7 +83,7 @@ h1{
 footer{
     background-color: #C0A0C3;
     bottom: 0;
-    position: relative;
+    position:relative;
     text-align: center;
     width: 100%;
     font-family: fuente2;
@@ -138,4 +138,13 @@ footer{
   border-width: 5px;
   border-radius: 10px 40px;
   padding: 20px;
+}
+
+.divBene{
+    background-color: #90CAF9;
+    border: dotted #5D4A3B;
+    border-width: 10px 4px;
+    border-radius: 10px 40px;
+    padding: 20px;
+    align: center;
 }
