@@ -148,3 +148,24 @@ footer{
     padding: 20px;
     align: center;
 }
+
+.div6{
+  background-color: #FFCDBD;
+  border: dashed #5D4A3B;
+  border-width: 5px;
+  border-radius: 10px 40px;
+  padding: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.div7{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #90CAF9;
+  border: dotted #5D4A3B;
+  border-width: 10px 4px;
+  border-radius: 10px 40px;
+  padding: 20px;
+}
